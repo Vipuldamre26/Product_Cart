@@ -1,0 +1,75 @@
+.product{
+    width: 100%;
+
+}
+
+.product .container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product .container .container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.product .container .container1 .prod{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 100%;
+    
+}
+
+.product .container .container1 .prod .addsub{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    padding: 0 0.4rem;
+}
+
+.product .container .container1 .prod .addsub strong{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1rem;
+    padding: 0 0.4rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.product .container .container2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.product .container .container2 .cartitem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product .container .container2 .total{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem 0;
+}
