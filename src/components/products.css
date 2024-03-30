@@ -1,6 +1,6 @@
 .product{
     width: 100%;
-
+    margin: 0;
 }
 
 .product .container{
@@ -8,6 +8,8 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
 }
 
 .product .container .container1{
@@ -15,16 +17,18 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 50%;
+    width: 45%;
+    background-color: aqua;
     box-sizing: border-box;
     padding: 1rem;
+    margin: 1rem;
+    border: 5px solid rgba(0, 0, 0, 0.538);
 }
 
 .product .container .container1 .prod{ 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: aqua;
     width: 100%;
     
 }
@@ -40,22 +44,26 @@
 .product .container .container1 .prod .addsub strong{ 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 1rem;
     padding: 0 0.4rem;
     background-color: black;
     color: white;
     cursor: pointer;
+
 }
 
 .product .container .container2{
-    width: 50%;
+    width: 45%;
     display: flex;
     align-items: center;
     /* justify-content: center; */
     flex-direction: column;
     padding: 2rem;
     box-sizing: border-box;
+    border: 5px solid rgba(0, 0, 0, 0.538);
+    background-color: aqua;
+    margin: 1rem;
 }
 
 .product .container .container2 .cartitem{
@@ -63,6 +71,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.114);
+    margin: 0.3rem 0;
+    padding: 0.3rem 0.4rem;
 }
 
 .product .container .container2 .total{
@@ -72,4 +83,8 @@
     justify-content: space-between;
     padding: 1rem;
     margin: 1rem 0;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: 0.3rem 0;
+    padding: 0.3rem 0.4rem;
 }

@@ -131,7 +131,7 @@ const Products = () => {
                             return (
                                 <div className='prod' key={item.id}>
                                     <span>Product {item.id}</span>
-                                    <span>{item.price}</span>
+                                    <span>Rs. {item.price}</span>
                                     <div className='addsub'>
                                         <strong onClick={(e) => sub(e, item.id)}>-</strong>
                                         <p>{item.count}</p>
@@ -157,7 +157,7 @@ const Products = () => {
 
                     <div className='total'>
                         <strong>total</strong>
-                        <span>{state.total}</span>
+                        <span>Rs. {state.total}</span>
                     </div>
                 </div>
 

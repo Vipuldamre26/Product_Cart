@@ -1,4 +1,6 @@
 #root {
   padding: 2rem;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.046);
+  min-height: 100vh;
 }
